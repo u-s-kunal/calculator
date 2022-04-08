@@ -1,0 +1,105 @@
+/* FOR CALCULATOR APP */
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #000000;
+}
+
+button {
+    margin: 5px;
+    width: auto;
+    transition: 0.1s;
+    padding: 5px 4vw;
+    height: 7vw;
+    border-radius: 20px;
+    background-color: #970404d0;
+    transition: linear 0.4s;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3vmin;
+    border: 2px solid white;
+    box-shadow: #000000 1px 10px 50px;
+    
+
+
+
+}
+
+button:hover {
+    background-color: #6707a7c9;
+    box-shadow: #ffffff 1px 10px 50px;
+}
+
+button:active {
+    background-color: #1aa707c9;
+    box-shadow: #ffffff 1px 10px 50px;
+}
+
+.button-box{
+    height: 80%;
+    width: 80%;
+}
+
+
+#calculator {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(/ai-technology-brain-background-digital-transformation-concept-min.jpg);
+    background-size: cover;
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.cal-box {
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    width: auto;
+    height: 90%;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px #a02da1, inset 0px 0px 40px rgb(0, 140, 255), #a02da1 0px 0px 30px, inset 0px 0px 30px white;
+}
+
+
+.cal-box input {
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: white 0px 0px 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #ff0000c9;
+    color: white;
+    padding: 10px;
+    margin: 40px;
+    width: 80%;
+}
+
+#calculator h1 {
+    width: 100vw;
+    margin-bottom: -60px;
+}
+
+
+button:active {
+    transform: scale(0.9, 0.9);
+    background-color: rgba(219, 216, 17, 0.781);
+}
+
+
+
