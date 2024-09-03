@@ -7,7 +7,7 @@ header {
   background-color: rgb(30, 32, 30);
   color: aliceblue;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .main {
@@ -33,7 +33,7 @@ input {
   text-align: center;
   font-weight: bold;
   display: flex;
-  width: 40vw;
+  width: 26vw;
 
 }
 
@@ -57,6 +57,10 @@ button:hover {
   box-shadow: 1px 1px 10px white;
 }
 
+.ac{
+  background-color: rgb(84, 110, 6);
+}
+
 #finalBtn {
   background-color: rgb(185, 147, 9);
   width: 99%;
@@ -64,22 +68,22 @@ button:hover {
   margin-top: 15px;
 }
 
-.addBtn{
-    grid-row: span 2;
-}
+
 
 #del{
     background-color: rgb(176, 21, 21);
+    grid-row: span 2;
 }
 
 
-@media screen and (max-width: 480px) {
-  .calc {
-    
-    width: 70vw;
+@media screen and (max-width: 600px) {
+ 
+
+  .calc{
+    height: auto;
   }
-  .input{
-    width: 60vw;
+  input{
+    width: 70vw;
 
   }
 }
